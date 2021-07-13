@@ -15,15 +15,15 @@ nav
     width: 100%;
     height: 94px;
     background-color: #562EFF;
-    display:flex;
-    justify-content: space-between;
+    display: flex;
+    justify-content: space-around;
 }
 
 .logo-icon
 {
     display: flex;
     align-items: center;
-    margin-left:285px;
+    justify-content:center;
     
 }
 
@@ -31,7 +31,7 @@ nav
 {
     font-size: 48px;
     color:white;
-    /* margin-left: 102px;  */
+    /* margin-left: 285px;  */
 }
 
 .icon-text
@@ -39,14 +39,15 @@ nav
     color:white;
     font-size: 28px;
     padding-left: 16px;
-    margin-right: 452px;
+    /* margin-right: 452px; */
 }
 
 .menu-icon
 {
     display: flex;
     align-items: center;
-    margin-right: 289px;
+    justify-content: center;
+    /* margin-right: 289px; */
 }
 
 .menu-icon a
